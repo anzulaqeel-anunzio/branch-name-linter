@@ -1,0 +1,20 @@
+{
+    "name": "branch-name-linter-action",
+    "version": "1.0.0",
+    "description": "GitHub Action to lint branch names",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "github-action",
+        "branch",
+        "linter"
+    ],
+    "author": "Anzul Aqeel",
+    "license": "MIT",
+    "dependencies": {
+        "@actions/core": "^1.10.0",
+        "@actions/github": "^5.1.1"
+    }
+}

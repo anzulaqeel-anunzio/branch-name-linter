@@ -1,0 +1,24 @@
+# Developed for Anunzio International by Anzul Aqeel. Contact +971545822608 or +971585515742. Linkedin Profile: linkedin.com/in/anzulaqeel
+
+name: 'Branch Name Linter'
+description: 'Validates branch names against a regex.'
+author: 'Anzul Aqeel'
+inputs:
+  token:
+    description: 'GitHub Token'
+    required: true
+    default: '${{ github.token }}'
+  regex:
+    description: 'Regex pattern'
+    required: true
+  ignore_branches:
+    description: 'Ignored branches'
+    default: 'main,master'
+runs:
+  using: 'node16'
+  main: 'index.js'
+branding:
+  icon: 'git-branch'
+  color: 'purple'
+
+# Developed for Anunzio International by Anzul Aqeel. Contact +971545822608 or +971585515742. Linkedin Profile: linkedin.com/in/anzulaqeel
